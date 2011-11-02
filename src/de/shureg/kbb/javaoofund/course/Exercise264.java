@@ -17,7 +17,13 @@ public class Exercise264 {
 	public static void main(String... args) {
 		int mult = 4;
 		int sum = 0;
-		
+
+		/*TODO: to make pretty print like
+		 * 	1 2  3  4 = 10
+			2 4  6  8 = 20
+			3 6  9 12 = 30
+			4 8 12 16 = 40
+		 */
 		for (int y = 1; y <= mult; y++) {
 
 			for (int x = 1; x <= mult; x++) {
