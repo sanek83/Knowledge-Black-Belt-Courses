@@ -1,4 +1,4 @@
-package de.shureg.kbb.javaoofund.course;
+package javaoofund.course;
 /**
  * Knowledgeblackbelt
  * Java & OO Fundamentals - Course
