@@ -1,0 +1,29 @@
+We manage a farm with horses that have to work on the field.
+
+A horse has
+
+a name,
+a maximum amount of working hours per week,
+the amount of hours actually worked and
+a field to indicate if she is lazy or hard-working.
+All the attributes of the Horse class are private and they have no setters. Initial values are passed through the constructor.
+
+The Horse class has a method to add one hour of actual work. That method is called every hour (that the horse works). At the start of the next week, we reset that counter to 0 by calling another method with no parameters.
+
+A lazy horse cannot work more than 34 hours/week, while a hard-working horse can work up to 80 hours.
+
+Code a Horse class that is shielded against wrong working hours data.
+
+Your main method will create a horse and call its methods, but the data must never be corrupted, ie. the working hour limits must be respected.
+
+For example, a lazy horse's maximum hours cannot be set above 34 and the number of hours worked cannot be greater than the maximum.
+
+If the Horse class detects an attempt to set incorrect data, the data remains unchanged (and you print a message to help you debug).
+
+Example of correct data:
+
+Name: "Blacky" lazy: no max hours / week = 70 actual hours worked this week = 61
+Name: "Sultan" lazy: yes max hours / week = 30 actual hours worked this week = 1
+Example of corrupted data (your code should make such a situation impossible to reach)
+
+Name: "Georges" lazy: yes max hours / week = 50 (wrong because lazy horses work max 34h/week) actual hours worked this week = 51 (wrong because 51 > 50).
