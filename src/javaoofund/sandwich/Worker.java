@@ -1,4 +1,4 @@
-package de.shureg.kbb.javaoofund.sandwich;
+package javaoofund.sandwich;
 
 public class Worker {
 	
