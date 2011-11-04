@@ -1,5 +1,11 @@
 package de.shureg.kbb.javaoofund.course.Exercise311;
-
+/**
+ * Knowledgeblackbelt
+ * Java & OO Fundamentals - Course
+ * 
+ * @author shureg
+ * @version 0.1
+ */
 public class Main {
 
 	public static void main(String[] args) {
