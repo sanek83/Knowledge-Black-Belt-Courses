@@ -1,0 +1,24 @@
+ == Sandwich Delivery Service ==
+ 
+In this workshop, we want to feed our workers and display the different orders they have made.
+DIAGRAMM: http://knowledgeblackbelt.com/gen/course/11196414/Ws1QuestionSized2.JPG
+
+
+Like in the diagram, our workers are Marty and Biff. Marty wants a U.S.A sandwich with salad and tomatoes in supplement. He also tried to buy a cheese sandwich but has not enough money for this order. Biff wants two sandwiches: a Cheese one with tomatoes and corn in supplement, and a ham one with eggs and corn. He has enough money so he can buy both of them.
+After making their order, we want display a list of them with the name of the Workers, and the Sandwich(es) they've bought.
+Design this program the way you want but you must respect this point :
+ * A sandwich is linked to a Worker by a method purchase() of the Worker object.
+
+Your main method must be structured this way :
+
+* Create the 3 different Sandwiches (USA, cheese and ham as on the diagram)
+* Add the different complement to the right sandwiches.
+* Create Marty and Biff
+* Order the USA sandwich for Marty.
+* Try to order the cheese one for Marty. An error should be displayed (he does not have enough money)
+* Order the two sandwiches for Biff.
+* Try to order the USA sandwich for Biff. An error should be displayed because this sandwich already has an owner !
+* Display the list of sandwiches with their owners.
+* Keep in mind that a Sandwich can be sold to only one Worker !
+
+Visit a http://knowledgeblackbelt.com for more information.
